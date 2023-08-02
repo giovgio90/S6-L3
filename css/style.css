@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+}
+
+.navbar {
+  background-color: rgb(222, 252, 90);
+}
+
+h1 {
+  font-size: 3rem;
+  padding-block: 30px;
+  color: rgb(99, 14, 14);
+  font-family: "Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.button-blue {
+  background-color: blue;
+}
+
+.button-orange {
+  background-color: orange;
+}
+
+.button-green {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */

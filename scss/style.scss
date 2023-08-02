@@ -1,0 +1,25 @@
+@import "./partials/reset";
+@import "./partials/colors";
+@import "./partials/font";
+@import "./partials/mixins";
+
+//ciclo EACH
+body {
+  margin: $m-0;
+}
+
+.navbar {
+  background-color: $bg-primary;
+}
+
+//Mixin
+h1 {
+  @include customTitle(3rem, 30px, rgb(99, 14, 14));
+  font-family: $font-1;
+}
+
+@each $color in $colorsButton {
+  .button-#{$color} {
+    background-color: $color;
+  }
+}

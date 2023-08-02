@@ -1,0 +1,6 @@
+@mixin customTitle($size, $padding, $colorText) {
+  font-size: $size;
+  padding-block: $padding;
+  color: $colorText;
+  font-family: $font-1;
+}
